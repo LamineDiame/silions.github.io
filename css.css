@@ -1,0 +1,868 @@
+@font-face
+{
+ font-family: 'lubalingraphstd-book-webfont';
+    src: url('fonts/lubalingraphstd-book-webfont.eot');
+    src: url('fonts/lubalingraphstd-book.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lubalingraphstd-book-webfont.woff') format('woff'),
+         url('fonts/lubalingraphstd-book-webfont.ttf') format('truetype'),
+         url('fonts/lubalingraphstd-book-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+	font-family: 'Lettering Inc - DirectorsGothic201-Regular';
+	src:url(fonts/Lettering Inc - DirectorsGothic201-Regular);
+	src:url('fonts/Lettering Inc - DirectorsGothic201-Regular?#iefix') format('embedded-opentype');
+}
+nav
+{
+		display : flex;
+ 	justify-content: space-around;
+}
+ul
+ {
+ 		 	display: flex;
+ 	text-decoration: none;
+ 	list-style-type: none;
+	padding-top: 75px;
+ 	padding-right: 37px;
+ 	font-family: 'lubalingraphstd-book-webfont';
+ 	font-weight: bold;
+  }
+  li
+  {
+padding-right: 50px;
+  	padding-left: 50px;
+  }
+li:hover
+  {
+  	border: black solid 2px;
+  }
+  a
+  {
+  	text-decoration: none;
+  	color:black;
+  }
+  #tickets_ a:hover
+  {
+  	color:white;
+  }
+   #tickets a:hover
+  {
+  	color:white;
+  }
+
+ #logo
+ {
+ 	margin-top:-75px;
+ 	margin-left: 865px;
+ 	height: 130px;
+ }
+
+
+body
+{
+background: url(images/fond.png); 
+}
+
+header
+{
+	background : url(images/menu.png)no-repeat center ;
+   background-size: cover;
+   left:0px;
+    height :227px;    
+    top:0px;
+    width:100%;
+    position: absolute;
+    z-index: 2;
+}
+
+#fleche
+{
+padding-left: 920px;
+padding-bottom: 110px;
+}
+
+#banniere
+{
+	position: absolute;
+	background: url(images/groupe.png) no-repeat  scroll;
+	background-size: cover;
+	width: 100%;
+	height: 1050px;
+	margin-right: -90px;
+	margin-left: -8px;
+	top: 7%;
+	display: flex;
+	align-items: flex-end;
+	z-index: 1;
+}
+
+
+#prog
+{
+text-align: center;
+padding-top: 25px;
+}
+#jour
+{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	height: 65px;
+	margin-bottom:-10px;
+}
+#jour1
+{
+	
+	background-color: black;
+	color:white;
+	width:303px;
+	padding-top: 8px;
+}
+#jour2
+{
+	
+	background-color: black;
+	color:white;
+	width:303px;
+	margin-left: 25px;
+	padding-top: 8px;
+}
+#jour3
+{
+	
+	background-color: black;
+	color:white;
+	width:303px;
+	margin-left: 25px;
+	padding-top: 8px;
+
+}
+#nom
+{
+	display: flex;
+	text-align: center;
+	justify-content:  center;
+	font-family: 'lubalingraphstd-book-webfont';
+	font-weight: bold;
+}
+
+#nom1
+{
+	
+	background-color: white;
+	color:black;
+	width:303px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+}
+
+#nom1:hover
+{
+	background-color: black;
+	color:white;
+}
+#nom2
+{
+	
+	background-color: white;
+	color:black;
+	width:303px;
+		margin-left: 25px;
+			padding-top: 15px;
+			padding-bottom: 5px;
+
+}
+#nom2:hover
+{
+	background-color: black;
+	color:white;
+}
+
+#nom3
+{
+	background-color: white;
+	color:black;
+	width:303px;
+		margin-left: 25px;
+			padding-top: 15px;
+			padding-bottom: 5px;
+
+}
+#nom3:hover
+{
+	background-color: black;
+	color:white;
+}
+
+
+#tickets
+{
+	display: flex;
+	justify-content: center;
+	font-size: 13px;
+	font-family: 'lubalingraphstd-book-webfont';
+	font-weight: bold;
+}
+#ticket1
+{
+	display: flex;
+	justify-content: space-around;
+	width:310px;
+	position: absolute;
+	left: -4px;
+	padding-top: 6px;
+
+}
+#ticket1 div
+{
+	
+	background-color: white;
+	color:black;
+}
+#ticket11
+{
+width:100px;
+}
+#ticket11:hover
+{
+	background-color: black;
+	color:white;
+}
+
+#ticket12
+{
+	width:199px;
+}
+#ticket12:hover
+{
+	background-color: black;
+	color:white;
+}
+
+#ticket2
+{
+	display: flex;
+	justify-content: space-around;
+	width:310px;
+	position: absolute;
+	left:325px;
+	padding-top: 6px;
+}
+
+#ticket2 div
+{
+	
+		background-color: white;
+	color:black;
+}
+#ticket21
+{
+	width:100px;
+}
+#ticket21:hover
+{
+	background-color: black;
+	color:white;
+}
+
+#ticket22
+{
+	width:199px;
+}
+#ticket22:hover
+{
+	background-color: black;
+	color:white;
+}
+
+
+#ticket3
+{
+	display: flex;
+	justify-content: space-around;
+	width:309px;
+	position: absolute;
+	left: 653px;
+	padding-top: 6px;	
+}
+#ticket3 div
+{
+	
+	background-color: white;
+	color:black;
+}
+#ticket31
+{
+	width :100px;
+}
+#ticket31:hover
+{
+	background-color: black;
+	color:white;
+}
+
+#ticket32
+{
+	width:199px;
+}
+#ticket32:hover
+{
+	background-color: black;
+	color:white;
+}
+
+
+footer
+{
+	position: absolute;
+	top:1200px;
+	left:480px;
+	text-align: center;
+	align-items: center;
+
+}
+
+
+
+
+
+
+#jour_
+{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	height: 65px;
+	margin-bottom:-10px;
+}
+#jour2_1
+{
+	
+	background-color: black;
+	color:white;
+	width:303px;
+	padding-top: 8px;
+}
+
+
+#jour2_2
+{
+	
+	background-color: black;
+	color:white;
+	width:303px;
+	margin-left: 25px;
+	padding-top: 8px;
+}
+#jour2_3
+{
+	background-color: black;
+	color:white;
+	width:303px;
+	margin-left: 25px;
+padding-top: 8px;
+}
+#nom_
+{
+	display: flex;
+	text-align: center;
+	justify-content:  center;
+	font-family: 'lubalingraphstd-book-webfont';
+	font-weight: bold;
+		
+
+}
+
+#nom2_1
+{
+	
+	background-color: white;
+	color:black;
+	width:303px;
+		padding-top: 15px;
+		padding-bottom: 5px;
+}
+#nom2_1:hover
+{
+	background-color: black;
+	color:white;
+}
+#nom2_2
+{
+	
+	background-color: white;
+	color:black;
+	width:303px;
+		margin-left: 25px;
+			padding-top: 15px;
+			padding-bottom: 5px;
+}
+#nom2_2:hover
+{
+	background-color: black;
+	color:white;
+}
+#nom2_3
+{
+	
+	background-color: white;
+	color:black;
+	width:303px;
+		margin-left: 25px;
+			padding-top: 15px;
+			padding-bottom: 5px;
+}
+#nom2_3:hover
+{
+	background-color: black;
+	color:white;
+}
+
+#tickets_
+{
+	display: flex;
+	justify-content: center;
+	font-size: 13px;
+	font-family: 'lubalingraphstd-book-webfont';
+	font-weight: bold;
+}
+#ticket2_1
+{
+	display: flex;
+	justify-content: space-around;
+	width:310px;
+	position: absolute;
+	left: -4px;
+	padding-top: 6px;
+}
+
+#ticket2_1 div
+{
+	
+	background-color: white;
+	color:black;
+}
+#ticket2_11
+{
+	width :100px;
+}
+#ticket2_11:hover
+{
+	background-color: black;
+	color:white;
+}
+#ticket2_12
+{
+	width: 199px;
+}
+#ticket2_12:hover
+{
+	background-color: black;
+	color:white;
+}
+#ticket2_2
+{
+	display: flex;
+	justify-content: space-around;
+	width:310px;
+	position: absolute;
+	left:325px;
+	padding-top: 6px;
+}
+
+#ticket2_2 div
+{
+	
+		background-color: white;
+	color:black;
+}
+#ticket2_21
+{
+	width :100px;
+}
+#ticket2_21:hover
+{
+	background-color: black;
+	color:white;
+}
+
+#ticket2_22
+{
+	width:199px;
+}
+#ticket2_22:hover
+{
+	background-color: black;
+	color:white;
+}
+
+#ticket2_3
+{
+	display: flex;
+	justify-content: space-around;
+	width:309px;
+	position: absolute;
+	left: 653px;
+	padding-top: 6px;	
+}
+#ticket2_3 div
+{
+	
+	background-color: white;
+	color:black;
+}
+#ticket2_31
+{
+	width :100px;
+}
+#ticket2_31:hover
+{
+	background-color: black;
+	color:white;
+}
+#ticket2_32
+{
+	width:199px;
+}
+#ticket2_32:hover
+{
+	background-color: black;
+	color:white;
+}
+
+#footer2
+
+{
+	position: absolute;
+	top:1625px;
+	left:480px;
+	text-align: center;
+	align-items: center;
+}
+
+@media	screen and (max-width: 1600px)
+{
+
+#banniere
+{
+	position: absolute;
+	background: url(images/groupe.png) no-repeat  scroll;
+	background-size: cover;
+	width: 100%;
+	height: 750px;
+	margin-right: -90px;
+	margin-left: -8px;
+	top: 7%;
+	display: flex;
+	align-items: flex-end;
+	z-index: 1;
+}
+#fleche
+{
+padding-left: 637px;
+padding-bottom: 80px;
+}
+
+ #logo
+ {
+ 	margin-top:-75px;
+ 	margin-left: 587px;
+ 	height: 130px;
+ }
+
+
+
+footer
+{
+	position: absolute;
+	top:850px;
+	left:190px;
+	text-align: center;
+	align-items: center;
+}
+
+#footer2
+{
+	position: absolute;
+	top:1275px;
+	left:190px;
+	text-align: center;
+	align-items: center;
+}
+span
+{
+	display :none;
+}
+
+}
+@media	screen and (max-width: 600px)
+{
+
+#banniere
+{
+	position: absolute;
+	background: url(images/groupe.png) no-repeat  scroll;
+	background-size: cover;
+	width: 100%;
+	height: 300px;
+	margin-right: -90px;
+	margin-left: -8px;
+	top: 7%;
+	display: flex;
+	align-items: flex-end;
+	z-index: 1;
+}
+header
+{
+	background :none;
+   left:0px;
+    height :227px;    
+    top:0px;
+    width:100%;
+    position: absolute;
+    z-index: 2;
+}
+ #logo
+ { 	
+ 	margin-top:200px;
+ 	margin-left: 0px;
+ 	height: 130px;
+ }
+ #fleche
+{
+padding-left: 220px;
+padding-bottom: 20px;
+height: 30px;
+}
+
+footer
+{
+	position: absolute;
+	top:850px;
+	left:10px;
+	text-align: center;
+}
+
+#footer2
+
+{
+	position: absolute;
+	top:1500px;
+	left:0px;
+	text-align: center;
+	align-items: center;
+}
+
+#prog
+{
+position: absolute;
+bottom:400px;
+left:15px;
+
+}
+
+#jour1
+{
+	position: absolute;
+	left:70px;
+	bottom:360px;
+}
+
+#nom1
+{
+	position: absolute;
+	left:70px;
+	bottom:240px;
+}
+
+#ticket1
+{
+	position: absolute;
+	left:67px;
+	bottom:190px;
+}
+
+#jour2
+{
+	position: absolute;
+	left:45px;
+	bottom:140px;
+}
+
+#nom2
+{
+	position: absolute;
+	left:45px;
+	bottom:20px;
+}
+
+#ticket2
+{
+	position: absolute;
+	left:68px;
+	bottom:-30px;
+}
+
+#jour3
+{
+	position: absolute;
+	left:45px;
+	bottom:-80px;
+}
+
+#nom3
+{
+	position: absolute;
+	left:45px;
+	bottom:-200px;
+}
+
+#ticket3
+{
+	position: absolute;
+	left:68px;
+	bottom:-250px;
+}
+
+
+#jour2_1
+{
+	position: absolute;
+	left:82px;
+	bottom:350px;
+}
+
+#nom2_1
+{
+	position: absolute;
+	left:82px;
+	bottom:230px;
+}
+
+#ticket2_1
+{
+	position: absolute;
+	left:79px;
+	bottom:180px;
+}
+
+
+
+#jour2_2
+{
+	position: absolute;
+	left:58px;
+	bottom:130px;
+}
+
+#nom2_2
+{
+	position: absolute;
+	left:58px;
+	bottom:10px;
+}
+
+#ticket2_2
+{
+	position: absolute;
+	left:80px;
+	bottom:-40px;
+}
+
+#jour2_3
+{
+	position: absolute;
+	left:58px;
+	bottom:-90px;
+}
+
+#nom2_3
+{
+	position: absolute;
+	left:58px;
+	bottom:-210px;
+}
+
+#ticket2_3
+{
+	position: absolute;
+	left:80px;
+	bottom:-260px;
+}
+
+
+
+
+	
+
+
+
+
+
+
+
+
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+  height: 100%;
+  width: 0;
+  position: fixed; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: rgb(0,0,0); /* Black fallback color */
+  background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  transition: 0.2s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 25%; /* 25% from the top */
+  width: 100%; /* 100% width */
+  text-align: center; /* Centered text/links */
+  margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+  padding: -0px;
+  text-decoration: none;
+  font-size: 5px;
+  color: #818181;
+  display: block; /* Display block instead of inline */
+  transition: 0.3s; /* Transition effects on hover (color) */
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (min-width: 450px) {
+  .overlay a {font-size: 10px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+
+}
