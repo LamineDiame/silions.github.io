@@ -53,17 +53,16 @@ li:hover
   	color:white;
   }
 
- #logo
- {
- 	margin-top:-75px;
- 	margin-left: 865px;
- 	height: 130px;
- }
+  #logo {
+    margin-top: -75px;
+    margin-left: 0px;
+    height: 130px;
+}
 
 
 body
 {
-background: url(images/fond.png); 
+background: url(images/Fond.png); 
 }
 
 header
@@ -543,62 +542,8 @@ padding-top: 8px;
 	align-items: center;
 }
 
-@media	screen and (max-width: 1600px)
-{
 
-#banniere
-{
-	position: absolute;
-	background: url(images/groupe.png) no-repeat  scroll;
-	background-size: cover;
-	width: 100%;
-	height: 750px;
-	margin-right: -90px;
-	margin-left: -8px;
-	top: 7%;
-	display: flex;
-	align-items: flex-end;
-	z-index: 1;
-}
-#fleche
-{
-padding-left: 637px;
-padding-bottom: 80px;
-}
-
- #logo
- {
- 	margin-top:-75px;
- 	margin-left: 587px;
- 	height: 130px;
- }
-
-
-
-footer
-{
-	position: absolute;
-	top:850px;
-	left:190px;
-	text-align: center;
-	align-items: center;
-}
-
-#footer2
-{
-	position: absolute;
-	top:1275px;
-	left:190px;
-	text-align: center;
-	align-items: center;
-}
-span
-{
-	display :none;
-}
-
-}
-@media	screen and (max-width: 600px)
+@media	screen and (max-width: 1168px)
 {
 
 #banniere
@@ -642,7 +587,7 @@ footer
 {
 	position: absolute;
 	top:850px;
-	left:10px;
+	left:25%;
 	text-align: center;
 }
 
@@ -651,7 +596,7 @@ footer
 {
 	position: absolute;
 	top:1500px;
-	left:0px;
+	left:350px;
 	text-align: center;
 	align-items: center;
 }
